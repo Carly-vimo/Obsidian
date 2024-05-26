@@ -444,4 +444,17 @@ amazing()
 ### 재귀함수
 - 함수가 자기 자신을 호출하는 함수
 - 재귀함수는 리스트의 리스트의 리스트와 같이 '고르지 않은' 데이터를 처리할 때 유용하다.
-- 
+- 하위 리스트를 평평하게 만든다고 할 때 많이 쓰임 
+``` python
+def flatten(lol):
+	from item in lol:
+		if isinstance(item , list):
+			yield from flatten(item)
+		else:
+			yield item 
+			
+
+
+
+
+```
