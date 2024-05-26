@@ -202,7 +202,7 @@ f1 = outer(3) # 3
 f2 = outer(4) # 4 
 
 ```
-
+아래와 같은 클로저 함수면 어떨까? 외부 / 내부 함수 모두 인수가 존재하는 함수의 경우 
 ``` python
 def outer(out1):
 	def inner(in1):
@@ -213,6 +213,12 @@ def outer(out1):
 	return inner 
 
 ```
+``` python 
+f1 = outer(2) # "outer function called" 
+f1(10) # <- 이렇게 한 번 더 호출을 해야 내부 함수까지 호출된 값을 볼 수 있음 
+
+```
+
 
 
 - 내부 함수는 클로저처럼 동작할 수 있다.  -> 클로저는 다른 함수에 의해 동적으로 생성된다. 
