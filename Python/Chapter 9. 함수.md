@@ -436,7 +436,12 @@ def amazing():
 	this is amazing function.
 	want to see it again?
 	"""
-	print("this function name is ", amazing.__name__)
-	print("its docstring is :)
+	print("this function name is : ", amazing.__name__)
+	print("its docstring is : ", amazing.__doc__ )
 
+amazing()
 ```
+### 재귀함수
+- 함수가 자기 자신을 호출하는 함수
+- 재귀함수는 리스트의 리스트의 리스트와 같이 '고르지 않은' 데이터를 처리할 때 유용하다.
+- 
