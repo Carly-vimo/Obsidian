@@ -489,5 +489,20 @@ except:
 	print("Need a position between 0 and" , len(short_list)-1 , "bot got" , position) # 이런 식으로 에러 발생 시 except문을 실행해준다. 
 ```
 
-except 문만 사용하는 것은 모든 예외 타입에 대한 포괄적인 예외처리 방식이다.
-각
+except 문만 사용하는 것은 모든 예외 타입에 대한 포괄적인 예외처리 방식이다. 따라서 각 에러에 대한 특정 예외 핸들러를 사용하는 것이 좋다. 
+
+예외 타입을 넘어서 예외 사항에 대한 세부 정보를 얻고 싶다면 변수 이름에서 예외 객체 전체를 얻으면 된다 
+```python
+
+try:
+	short_list[position]
+except IndexError as err:
+	print("Bad index")
+except Exception as other: 
+	print("something else broke")
+
+
+```
+#### 예외 만들기
+- 앞서 언급한 예외의 경우 파이썬 표준 라이브러리에 이미 정의된 예외
+- 필요한 예외처리를 선택해서 사용, 특별한 상황에서 발생할 수 있는 예외 처리를 위해 
