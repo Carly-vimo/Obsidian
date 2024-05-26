@@ -479,4 +479,15 @@ print(list(flatten(lol)))
 - 어떤 상황에서 실패할 수 있는 코드를 실행할 때 잠재적인 모든 에러를 방지하기 위해 적절한 **예외처리 (Exception Handler)** 가 필요함
 #### 예외 처리하기 (try , except)
 - 에러가 예상되는 코드에 try 문을 사용하고 그 에러를 처리하기 위해 except문을 사용한다. 
-- 
+```python 
+
+short_list = [1,2,3]
+position = 5
+try: 
+	short_list[position]
+except:
+	print("Need a position between 0 and" , len(short_list)-1 , "bot got" , position) # 이런 식으로 에러 발생 시 except문을 실행해준다. 
+```
+
+except 문만 사용하는 것은 모든 예외 타입에 대한 포괄적인 예외처리 방식이다.
+각
