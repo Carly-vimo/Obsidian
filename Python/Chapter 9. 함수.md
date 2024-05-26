@@ -514,5 +514,5 @@ class UppercaseException(Exception):
 words = ["eenie", "meenie", "miny", "mo"]
 for word in words: 
 	if word.isupper():
-		raise UppercaseException(word) # 에러 발생 
+		raise UppercaseException("에러 메세지다!") # 에러 발생 시키기 
 ```
