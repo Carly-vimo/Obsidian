@@ -452,9 +452,13 @@ def flatten(lol):
 			yield from flatten(item)
 		else:
 			yield item 
-			
 
-
-
-
+lol = [1,2,[3,4,5], [6,[7,8,9]], []]
+flatten(lol)
+print(list(flatten(lol))) 
 ```
+> [!NOTE]
+> yield 를 이용하면 값을 하나씩 밖으로 전달이 가능함. 
+> **yield from 반복 가능한 객체** 를 사용하면 단 한 번의 사용으로 값을 한 번에 전달이 가능하다. 
+
+>  
