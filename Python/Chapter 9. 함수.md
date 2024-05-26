@@ -216,14 +216,9 @@ def outer(out1):
 ``` python 
 f1 = outer(2) # "outer function called" 
 f1(10) # <- 이렇게 한 번 더 호출을 해야 내부 함수까지 호출된 값을 볼 수 있음 
-
 ```
-
-
-
 - 내부 함수는 클로저처럼 동작할 수 있다.  -> 클로저는 다른 함수에 의해 동적으로 생성된다. 
 - 외부 함수로부터 생성된 **변수값을 변경하고 저장할 수 있는 함수**다.
-
 ``` python
 def knights2(saying):
 	def inner2():
@@ -233,7 +228,6 @@ def knights2(saying):
 ```
 - 위 예제를 보면 내부에 있는 inner2 함수는 knights2 함수의 인수를 알고서 return 해준다.
 - 이것이 외부 함수에 의해 동적으로 생성되고 그 함수의 변수값을 알고 있는 함수가 **클로저**임. 
-
 
 
 ### Lambda
