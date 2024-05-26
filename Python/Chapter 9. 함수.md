@@ -376,7 +376,7 @@ def square_it(func):
 		return result * result
 	return new_func
 
-@docucment_it
+@document_it
 @square_it
 def add_ints(a,b):
 	return (a+b)
@@ -404,3 +404,8 @@ def add_ints(a,b):
 # square_it 실행 -> func에 document_it(add_ints) 
 # 64 
 ```
+
+### 네임 스페이스와 스코프
+- 네임스페이스는 특정 이름이 유일하고, 다른 네임스페이스에서의 같은 이름과 관계가 없는 것을 말함
+
+- 메인 프로그램은 전역 네임스페이스를 정의. 메인 프로그램의 네임 스페이스에서 선언된 변수는 전역변수이다. 
