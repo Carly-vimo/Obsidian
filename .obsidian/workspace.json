@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "01e89ce3beeae9d5",
+        "id": "5103289de8337909",
         "type": "tabs",
         "children": [
           {
-            "id": "f323948ae4e56e35",
+            "id": "0bdea62fdd5e533d",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -154,7 +154,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -169,10 +169,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f323948ae4e56e35",
+  "active": "0bdea62fdd5e533d",
   "lastOpenFiles": [
-    "Python/Weekend Study.md",
     "Python/Chapter 9. 함수.md",
+    "Python/Weekend Study.md",
     "Untitled.canvas",
     "Vault.md",
     "Python/Python.md",

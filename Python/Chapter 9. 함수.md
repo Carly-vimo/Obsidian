@@ -275,3 +275,7 @@ for i in gen:
 genobj = (pair for pair in zip(['a','b'] , [1, 2]))
 print(genobj)
 ```
+
+
+### 데코레이터 
+
