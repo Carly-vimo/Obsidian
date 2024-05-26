@@ -304,6 +304,16 @@ def deco(fn): # 1. deco 라는 함수 정의하고 retun 값으로 내부 함수
 3. deco 함수를 호출하고 싶을 때 
 ```
 hello = deco(hello)
-hello()
+hello() #deco 함수에 hello 함수를 전달하면 기능이 추가된 함수 객체가 만들어지는데 이를 다시 hello라는 변수에 바인딩
 ```
+
+파이썬에서는 @ 기호로 데코레이터 기능을 제공한다.
+- 단순히 어떤 함수에 기능을 추가하고자 한다면 해당 함수 위에 ```@데코레이터함수``` 를 붙여주면 끝!
+``` python 
+@deco 
+def hi():
+	print("hi who are you?")
+
+```
+
 
