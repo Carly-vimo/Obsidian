@@ -284,4 +284,19 @@ print(genobj)
 - 내부 함수 
 - 함수 인수
 
-- 
+1. 임의의 함수를 하나 만든다. 
+```python 
+def hello():
+	print("hello world")
+```
+2. 함수를 입력받아서 새로운 함수에 기능을 추가해주는 함수 정의 
+``` python
+def deco(fn):
+	def new_deco():
+		print("함수 시작")
+		fn() 
+		print("함수 종료")
+	return new_deco
+
+d
+```
