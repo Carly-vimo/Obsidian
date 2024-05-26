@@ -363,7 +363,28 @@ def hi():
 def document_it(func):
 	def new_func(*args, **kwargs):
 		print("running function : " , func.__name__)
-		print("posi)
+		print("positional arguments :" , args)
+		print("keyword arguments : ", kwargs )
+		result = func(*args , **kwargs)
+		print("result : " , result)
+		return result
+	return new_func
+
+def square_it(func):
+	def new_func(*args, **kwargs):
+		result = func(*args , **kwargs)
+		return result * result
+	return new_func
+
+@docucment_it
+@square_it
+def add_ints(a,b):
+	return (a+b)
+
+@square_it
+@document_it
+def add_ints(a,b):
+	return (a+b)
 
 
 
