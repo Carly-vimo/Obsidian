@@ -384,7 +384,7 @@ def add_ints(a,b):
 # document_it 실행 -> func 로 square_it(add_ints)가 들어감 
 
 # running function : new_func
-# positional : () 
+# positional : (3,5)  # add_ints의 인수들 
 # keyword = {}
 # result = 64 
 
@@ -402,8 +402,5 @@ def add_ints(a,b):
 # result : 8
 
 # square_it 실행 -> func에 document_it(add_ints) 
-
-
-
-
+# 64 
 ```
