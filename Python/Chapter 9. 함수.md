@@ -427,3 +427,16 @@ def change_local():
 print("globals : " , globals())
 ```
 
+### 이름에 언더바 사용하기 (_ , \_\_)
+- 언더바 두 개로 시작하고 끝나는 이름은 파이썬 내부 사용을 위해 예약되어있음
+``` python
+
+def amazing():
+	"""
+	this is amazing function.
+	want to see it again?
+	"""
+	print("this function name is ", amazing.__name__)
+	print("its docstring is :)
+
+```
