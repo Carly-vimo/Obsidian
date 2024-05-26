@@ -213,6 +213,8 @@ def outer(out1):
 	return inner 
 
 ```
+- dlfjg
+
 ``` python 
 f1 = outer(2) # "outer function called" 
 f1(10) # <- 이렇게 한 번 더 호출을 해야 내부 함수까지 호출된 값을 볼 수 있음 
