@@ -181,8 +181,27 @@ def knights(saying):
 
 
 #### 클로저 (Closure)
+[클로저의 핵심 개념]
+- 외부 함수에서 내부 함수를 정의한다.
+- 내부 함수에서 참조하는 변수는 내부 함수 객체에 같이 저장한다.
+- 외부 함수는 내부 함수를 리턴한다.
+```python
 
+def outer(num):
+	def inner():
+		print(num)
+	return inner
 
+```
+위는 가장 간단한 클로저의 모양임. 
+1. 외부 함수인 outer 는 내부 함수인 inner를 호출하고 
+2. 내부 함수인 inner에서 외부 함수인 outer의 num 값까지 가지고 있는다. 
+``` python
+# f1 , f2 라는 변수에 outer 함수 각각 바인딩 
+f1 = outer(3)
+f2 = outer(4)
+
+```
 
 
 
