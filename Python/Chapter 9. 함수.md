@@ -418,4 +418,12 @@ def add_ints(a,b):
 [네임 스페이스 내용에 접근하기 위해 두 가지 함수 제공]
 1. locals( ) :  로컬(지역) 네임스페이스의 내용이 담긴 딕셔너리 반환
 2. globals( ) :  글로벌(전역) 네임스페이스의 내용이 담긴 딕셔너리 반환
+```python
+animal = "fruitbat" # 전역 변수 
+def change_local():
+	animal = "wombat" # 지역 변수
+	print("locals : " , locals())
+
+print("globals : " , globals())
+```
 
