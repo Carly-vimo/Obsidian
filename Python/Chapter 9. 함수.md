@@ -291,12 +291,12 @@ def hello():
 ```
 2. 함수를 입력받아서 새로운 함수에 기능을 추가해주는 함수 정의 
 ``` python
-def deco(fn):
-	def new_deco():
+def deco(fn): # 1. deco 라는 함수 정의하고 retun 값으로 내부 함수 호출
+	def new_deco(): # 2. 호출된 내부 함수 실행 
 		print("함수 시작")
-		fn() 
+		fn() # 3. 클로저처럼 fn이라는 외부 함수의 인자를 받아서 실행
 		print("함수 종료")
 	return new_deco
-
-d
 ```
+
+3. deco 함수를 호출하고 싶을 때 
