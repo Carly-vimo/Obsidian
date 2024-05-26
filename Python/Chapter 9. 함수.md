@@ -193,26 +193,30 @@ def outer(num):
 	return inner
 
 ```
-위는 가장 간단한 클로저의 모양임. 
+위는 가장 간단한 클로저의 모양. 
 1. 외부 함수인 outer 는 내부 함수인 inner를 호출하고 
 2. 내부 함수인 inner에서 외부 함수인 outer의 num 값까지 가지고 있는다. 
 ``` python
 # f1 , f2 라는 변수에 outer 함수 각각 바인딩 
-f1 = outer(3)
-f2 = outer(4)
+f1 = outer(3) # 3
+f2 = outer(4) # 4 
+
+```
+
+``` python
+def outer(out1):
+	def inner(in1):
+		print("inner function called")
+		print("outer argument : " , out1)
+		print("inner argument : " , in1 )
+	print("outer function called")
+	return inner 
 
 ```
 
 
-
-
-
-
-
-
-
 - 내부 함수는 클로저처럼 동작할 수 있다.  -> 클로저는 다른 함수에 의해 동적으로 생성된다. 
-- 그리고 외부 함수로부터 생성된 변수값을 변경하고 저장할 수 있는 함수다.
+- 외부 함수로부터 생성된 **변수값을 변경하고 저장할 수 있는 함수**다.
 
 ``` python
 def knights2(saying):
@@ -223,10 +227,6 @@ def knights2(saying):
 ```
 - 위 예제를 보면 내부에 있는 inner2 함수는 knights2 함수의 인수를 알고서 return 해준다.
 - 이것이 외부 함수에 의해 동적으로 생성되고 그 함수의 변수값을 알고 있는 함수가 **클로저**임. 
-
-
-
-
 
 
 
