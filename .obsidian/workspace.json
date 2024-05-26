@@ -1,0 +1,185 @@
+{
+  "main": {
+    "id": "0fca7448c6e119f0",
+    "type": "split",
+    "children": [
+      {
+        "id": "01e89ce3beeae9d5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f323948ae4e56e35",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Python/Chapter 9. 함수.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "44e96479e8db5d66",
+    "type": "split",
+    "children": [
+      {
+        "id": "60776d928874b2bc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7a043213b51856f8",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "296e21a06de621f8",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "c7e79251c809743d",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          },
+          {
+            "id": "626f11e2d185e1f3",
+            "type": "leaf",
+            "state": {
+              "type": "mk-path-view",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "98c2ca9c2868fb6a",
+    "type": "split",
+    "children": [
+      {
+        "id": "24c261d6df334b6a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f0cda0ccbeda750e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Python/Chapter 9. 함수.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "cd940d434da8a4c7",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Python/Chapter 9. 함수.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "036a2bb273e9cecd",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "da4224773593b127",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Python/Chapter 9. 함수.md"
+              }
+            }
+          },
+          {
+            "id": "049e62899b4ce777",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "453269721216ca6a",
+            "type": "leaf",
+            "state": {
+              "type": "git-history-view",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "f323948ae4e56e35",
+  "lastOpenFiles": [
+    "Python/Weekend Study.md",
+    "Python/Chapter 9. 함수.md",
+    "Untitled.canvas",
+    "Vault.md",
+    "Python/Python.md",
+    "Tags",
+    "2024-04-28.md",
+    "Untitled.md",
+    "Python/.md",
+    "Python"
+  ]
+}
