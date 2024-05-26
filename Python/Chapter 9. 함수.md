@@ -381,15 +381,27 @@ def square_it(func):
 def add_ints(a,b):
 	return (a+b)
 # square_it 먼저 실행 -> func 로 add_ints -> return 64 
-# document_it 실행 -> func 로 square_it(add_ints)가 들어감 -> runnin
+# document_it 실행 -> func 로 square_it(add_ints)가 들어감 
 
-
+# running function : new_func
+# positional : () 
+# keyword = {}
+# result = 64 
 
 
 @square_it
 @document_it
 def add_ints(a,b):
 	return (a+b)
+
+# document_it 먼저 실행 -> func로 add_ints 
+
+# running function : add_ints 
+# positional : (3,5) 
+# keyword : {}
+# result : 8
+
+# square_it 실행 -> func에 document_it(add_ints) 
 
 
 
