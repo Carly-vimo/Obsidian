@@ -213,7 +213,7 @@ def outer(out1):
 	return inner 
 
 ```
-- dlfjg
+- 이렇게 내부 함수가 호출될 때 외부 함수의 파라미터를 가지고 호출되는 것을 클로저 함수라고 말한다. 
 
 ``` python 
 f1 = outer(2) # "outer function called" 
@@ -355,3 +355,17 @@ def hi():
 - hi 라는 함수 위에 deco 함수를 추가하면서 새로운 기능을 추가해주게 된다. 
 - 함수를 부를 때는 그냥 ```hi()``` 로 부르면 된다. 
 
+
+##### 함수는 여러 데코레이터를 가질 수 있음
+- 함수에서 가장 가까운 (def 바로 위) 데코레이터를 먼저 실행한 후, 그 위에 데코레이터를 실행한다.
+``` python 
+
+def document_it(func):
+	def new_func(*args, **kwargs):
+		print("running function : " , func.__name__)
+		print("posi)
+
+
+
+
+```
