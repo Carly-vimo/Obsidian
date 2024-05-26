@@ -505,4 +505,14 @@ except Exception as other:
 ```
 #### 예외 만들기
 - 앞서 언급한 예외의 경우 파이썬 표준 라이브러리에 이미 정의된 예외
-- 필요한 예외처리를 선택해서 사용, 특별한 상황에서 발생할 수 있는 예외 처리를 위해 
+- 필요한 예외처리를 선택해서 사용, 특별한 상황에서 발생할 수 있는 예외 처리를 위해 유형 정의를 할 수 있음
+- 예외는 클래스고 Exception 클래스의 자식이다. -> Exception 클래스를 상속받아 사용한다.
+``` python
+class UppercaseException(Exception):
+	pass 
+
+words = ["eenie", "meenie", "miny", "mo"]
+for word in words: 
+	if word.isupper():
+		raise UppercaseException(word) # 에러 발생 
+```
