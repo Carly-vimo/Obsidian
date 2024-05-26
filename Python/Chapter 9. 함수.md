@@ -380,6 +380,11 @@ def square_it(func):
 @square_it
 def add_ints(a,b):
 	return (a+b)
+# square_it 먼저 실행 -> func 로 add_ints -> return 64 
+# document_it 실행 -> func 로 square_it(add_ints)가 들어감 -> runnin
+
+
+
 
 @square_it
 @document_it
