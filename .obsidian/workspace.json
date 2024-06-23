@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "d59227e12917a4ec",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.6.3"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -169,7 +180,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7a043213b51856f8",
+  "active": "d59227e12917a4ec",
   "lastOpenFiles": [
     "Python/Weekend Study.md",
     "Python/Chapter 9. 함수.md",
