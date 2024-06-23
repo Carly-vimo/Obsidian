@@ -23,9 +23,11 @@
             "id": "d59227e12917a4ec",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.6.3"
+                "file": "Python/Chapter 10. 객체와 클래스.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -104,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python/Chapter 9. 함수.md",
+                "file": "Python/Chapter 10. 객체와 클래스.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python/Chapter 9. 함수.md",
+                "file": "Python/Chapter 10. 객체와 클래스.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/Chapter 9. 함수.md"
+                "file": "Python/Chapter 10. 객체와 클래스.md"
               }
             }
           },
@@ -183,6 +185,7 @@
   "active": "d59227e12917a4ec",
   "lastOpenFiles": [
     "Python/Weekend Study.md",
+    "Python/Chapter 10. 객체와 클래스.md",
     "Python/Chapter 9. 함수.md",
     "Untitled.canvas",
     "Vault.md",
