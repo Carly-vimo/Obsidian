@@ -50,6 +50,13 @@ Cat 클래스 정의에서 name 속성을 self.name으로 접근함을 알아둘
 - 기존의 클래스는 부모 (= super, base) 클래스라고 하며, 새로운 클래스는 자식 (= sub, derived) 클래스라고 함
 ```python
 class Car:
-	
+	pass
+class Truck(Car):
+	pass
 ```
-
+`issubclass()`함수를 사용해서 다른 클래스에서 파생되었는지 여부를 확인할 수 있다.
+```python
+isssubclass(Truck, Car)
+>>> True
+```
+- 자식 클래스는 부모 클래스를 구체화(specialization)한 것이다. 
